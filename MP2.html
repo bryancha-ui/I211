@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+<title>PizzaNet</title>
+<link rel="stylesheet" href="http://cgi.soic.indiana.edu/~dpierz/i211.css">
+</head>
+
+<body>
+<img src = "pizza_sign.jpg" style="display: block;margin-left: auto;margin-right: auto;"></img>
+<h1>Welcome to PizzaNet</h1>
+
+<p> To begin your online order, please choose a size of pie:</p>
+
+<form method="post" action="pizza1.cgi">
+	<input type="radio" name="size" value="small" checked > small (10") $8.50
+	<input type="radio" name="size" value="medium" checked > medium (14") $10.50
+	<input type="radio" name="size" value="large" checked > large (16") $12.50
+	
+<p> What kind of crust would you like?</p>
+<select name="crust">
+<option>thin</option>
+<option>traditional</option>
+<option>deep dish</option></select>
+
+	<button type="submit">Next</button>
+</form>
+</body>
+</html>
